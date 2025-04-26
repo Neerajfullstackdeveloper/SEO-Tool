@@ -1,0 +1,123 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Body styling */
+  body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 20px;
+  }
+  
+  /* Results Container */
+  .results-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Heading */
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+  }
+  
+  /* Competitor Section */
+  .competitor-section {
+    margin-bottom: 30px;
+  }
+  
+  .competitor-section h3 {
+    color: #5c6bc0;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .competitor-card {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+  
+  .competitor-card h4 {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  
+  .competitor-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Quotation Section */
+  .quotation-section {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .quotation-section h3 {
+    font-size: 1.5rem;
+    color: #5c6bc0;
+    margin-bottom: 15px;
+  }
+  
+  .quotation-section p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #5c6bc0;
+    color: white;
+    font-size: 1rem;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #3f4a8a;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .results-container {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    .competitor-card p {
+      font-size: 0.9rem;
+    }
+  
+    .quotation-section p {
+      font-size: 1rem;
+    }
+  }
+  
