@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SEO-Tool/static/css/main.4a0d3985.css",
+    "main.js": "/SEO-Tool/static/js/main.d878a18b.js",
+    "static/js/453.4750782a.chunk.js": "/SEO-Tool/static/js/453.4750782a.chunk.js",
+    "index.html": "/SEO-Tool/index.html",
+    "main.4a0d3985.css.map": "/SEO-Tool/static/css/main.4a0d3985.css.map",
+    "main.d878a18b.js.map": "/SEO-Tool/static/js/main.d878a18b.js.map",
+    "453.4750782a.chunk.js.map": "/SEO-Tool/static/js/453.4750782a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a0d3985.css",
+    "static/js/main.d878a18b.js"
+  ]
+}
