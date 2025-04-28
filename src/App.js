@@ -5,12 +5,12 @@ import ResultPage from "./components/Page2Display";
 
 const App = () => {
   return (
-    <BrowserRouter >
-      <Routes>
-        <Route path="/" element={<BusinessForm />} > </Route>
-        <Route path="/result" element={<ResultPage />} > </Route>
-      </Routes>
-    </BrowserRouter>
+   <BrowserRouter>
+  <Routes>
+    <Route path="/" element={<BusinessForm />} />
+    <Route path="/result" element={<ResultPage />} />
+  </Routes>
+</BrowserRouter>
   );
 };
 
