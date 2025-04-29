@@ -60,7 +60,7 @@ const ResultPage = () => {
       </div>
 
       {/* Button for further action */}
-      <button onClick={() => window.location.href = "/"}>Go Back</button>
+      <button onClick={() => window.location.reload()}>Go Back</button>
     </div>
   );
 };
