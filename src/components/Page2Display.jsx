@@ -26,6 +26,18 @@ const ResultPage = () => {
       rank: "12th",
       country: "Canada",
     },
+    {
+      name: "Company D",
+      domain: "www.companyc.com",
+      rank: "12th",
+      country: "Canada",
+    },
+    {
+      name: "Company E",
+      domain: "www.companyc.com",
+      rank: "12th",
+      country: "Canada",
+    },
   ];
 
   // Sample quotation (this can be dynamically generated based on formData)
